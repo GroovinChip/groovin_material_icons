@@ -46,7 +46,6 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: (){
 
         },
-        tooltip: '',
         child: Icon(GroovinCommunityMaterialIcons.plus),
       ),
     );
