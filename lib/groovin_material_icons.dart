@@ -1,8 +1,8 @@
 library groovin_material_icons;
 import 'package:flutter/widgets.dart';
 
-///GroovinCommunityMaterialIcons
-class GroovinCommunityMaterialIcons{
+///GroovinMaterialIcons
+class GroovinMaterialIcons{
 
   static const IconData access_point = const IconData(0xF002, fontFamily: 'MaterialDesignIconFont', fontPackage: 'groovin_material_icons');
 
