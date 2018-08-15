@@ -2,7 +2,7 @@ name: groovin_material_icons
 description: A new Flutter package.
 version: 0.0.1
 author: GroovinChip
-homepage:
+homepage: https://github.com/GroovinChip/groovin_material_icons
 
 dependencies:
   flutter:
