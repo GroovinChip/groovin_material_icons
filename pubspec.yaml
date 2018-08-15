@@ -17,3 +17,6 @@ flutter:
       - family: MaterialDesignIconFont
         fonts:
           - asset: fonts/materialdesignicons-webfont.ttf
+
+environment:
+    sdk: ">=1.19.0 <2.0.0"
