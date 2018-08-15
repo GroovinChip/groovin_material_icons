@@ -38,7 +38,6 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            //Icon(GroovinCommunityMaterialIcons.baseball_bat),
             IconButton(icon: Icon(GroovinCommunityMaterialIcons.baseball_bat), onPressed: (){})
           ],
         ),
@@ -48,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         },
         tooltip: '',
-        child: Icon(Icons.add),
+        child: Icon(GroovinCommunityMaterialIcons.plus),
       ),
     );
   }
