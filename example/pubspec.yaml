@@ -1,0 +1,17 @@
+name: groovin_material_icons_testapp
+description: A new Flutter application.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  groovin_material_icons:
+    path: ..
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true

@@ -1,0 +1,19 @@
+name: groovin_material_icons
+description: A new Flutter package.
+version: 0.0.1
+author: GroovinChip
+homepage:
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+    fonts:
+      - family: MaterialDesignIconFont
+        fonts:
+          - asset: fonts/materialdesignicons-webfont.ttf
