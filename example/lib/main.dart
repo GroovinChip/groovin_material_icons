@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            IconButton(icon: Icon(GroovinCommunityMaterialIcons.baseball_bat), onPressed: (){})
+            IconButton(icon: Icon(GroovinMaterialIcons.baseball_bat), onPressed: (){})
           ],
         ),
       ),
@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: (){
 
         },
-        child: Icon(GroovinCommunityMaterialIcons.plus),
+        child: Icon(GroovinMaterialIcons.plus),
       ),
     );
   }
