@@ -4,4 +4,4 @@
 
 * Version 1.0.1 removes the word 'community' from the class name
 
-* Version 1.0.1 fixed example
+* Version 1.0.2 fixed example
