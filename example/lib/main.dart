@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: (){
 
         },
-        child: Icon(GroovinMaterialIcons.plus),
+        child: Icon(GroovinMaterialIcons.flutter),
       ),
     );
   }

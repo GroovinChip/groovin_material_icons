@@ -1,6 +1,6 @@
 name: groovin_material_icons
 description: A new Flutter package.
-version: 1.0.2
+version: 1.0.4
 author: GroovinChip <groovinchip@gmail.com>
 homepage: https://github.com/GroovinChip/groovin_material_icons
 
@@ -17,7 +17,13 @@ flutter:
       - family: MaterialDesignIconFont
         fonts:
           - asset: fonts/materialdesignicons-webfont.ttf
+      - family:  CustomMaterialIcons
+        fonts:
+          - asset: fonts/flutter_icon_custom.ttf
+
+    assets:
+      - assets/flutter.png
 
 environment:
     sdk: '>=1.19.0 <3.0.0'
-    flutter: ^0.5.1
+    flutter: '>=0.5.1'

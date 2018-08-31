@@ -1824,6 +1824,8 @@ class GroovinMaterialIcons{
 
   static const IconData flower = const IconData(0xF24A, fontFamily: 'MaterialDesignIconFont', fontPackage: 'groovin_material_icons');
 
+  static const IconData flutter = const IconData(0xe800, fontFamily: 'CustomMaterialIcons', fontPackage: 'groovin_material_icons');
+
   static const IconData folder = const IconData(0xF24B, fontFamily: 'MaterialDesignIconFont', fontPackage: 'groovin_material_icons');
 
   static const IconData folder_account = const IconData(0xF24C, fontFamily: 'MaterialDesignIconFont', fontPackage: 'groovin_material_icons');
