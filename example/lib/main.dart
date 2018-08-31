@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            IconButton(icon: Icon(GroovinMaterialIcons.baseball_bat), onPressed: (){})
+            IconButton(icon: Icon(GroovinMaterialIcons.flutter), onPressed: (){})
           ],
         ),
       ),
