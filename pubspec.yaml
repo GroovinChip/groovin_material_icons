@@ -1,6 +1,6 @@
 name: groovin_material_icons
 description: A new Flutter package.
-version: 1.0.4
+version: 1.0.5
 author: GroovinChip <groovinchip@gmail.com>
 homepage: https://github.com/GroovinChip/groovin_material_icons
 #---
@@ -31,4 +31,4 @@ flutter:
 
 environment:
     sdk: '>=1.19.0 <3.0.0'
-    flutter: '>=0.6.0'
+    flutter: '>=0.5.0'
