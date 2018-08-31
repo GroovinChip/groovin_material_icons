@@ -3,6 +3,11 @@ description: A new Flutter package.
 version: 1.0.4
 author: GroovinChip <groovinchip@gmail.com>
 homepage: https://github.com/GroovinChip/groovin_material_icons
+#---
+# Release commands:
+# 1) flutter packages pub publish --dry-run
+# 2) flutter packages pub publish
+#---
 
 dependencies:
   flutter:
