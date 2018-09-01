@@ -372,6 +372,10 @@ class GroovinMaterialIcons{
 
   static const IconData badminton = const IconData(0xF850, fontFamily: 'MaterialDesignIconFont', fontPackage: 'groovin_material_icons');
 
+  static const IconData ballot = const IconData(0xe800, fontFamily: 'BallotIcons', fontPackage: 'groovin_material_icons');
+
+  static const IconData ballot_outline = const IconData(0xe801, fontFamily: 'BallotIcons', fontPackage: 'groovin_material_icons');
+
   static const IconData bandcamp = const IconData(0xF674, fontFamily: 'MaterialDesignIconFont', fontPackage: 'groovin_material_icons');
 
   static const IconData bank = const IconData(0xF070, fontFamily: 'MaterialDesignIconFont', fontPackage: 'groovin_material_icons');

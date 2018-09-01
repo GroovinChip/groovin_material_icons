@@ -22,9 +22,12 @@ flutter:
       - family: MaterialDesignIconFont
         fonts:
           - asset: fonts/materialdesignicons-webfont.ttf
-      - family:  CustomMaterialIcons
+      - family: CustomMaterialIcons
         fonts:
           - asset: fonts/flutter_icon_custom.ttf
+      - family: BallotIcons
+        fonts:
+          - asset: fonts/ballot_icons.ttf
 
     assets:
       - assets/flutter.png
