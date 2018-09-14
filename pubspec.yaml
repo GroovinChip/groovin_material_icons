@@ -1,5 +1,5 @@
 name: groovin_material_icons
-description: A new Flutter package.
+description: A Flutter icons package that provides Material icons from both Google and the community.
 version: 1.0.5
 author: GroovinChip <groovinchip@gmail.com>
 homepage: https://github.com/GroovinChip/groovin_material_icons
@@ -28,6 +28,9 @@ flutter:
       - family: BallotIcons
         fonts:
           - asset: fonts/ballot_icons.ttf
+      - family: PubIcon
+        fonts:
+          - asset: fonts/pub_icon.ttf
 
     assets:
       - assets/flutter.png

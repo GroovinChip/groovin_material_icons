@@ -1,6 +1,8 @@
 ## 1.0.0 - 8/15/2018
 
-* Version 1.0.4 fixes flutter sdk in pubspec
+* Version 1.0.6 introduces the dart icon to the package
+
+* Version 1.0.5 fixes flutter sdk in pubspec
 
 * Version 1.0.4 adds the Flutter icon to the package
 
