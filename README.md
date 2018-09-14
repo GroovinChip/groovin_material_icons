@@ -4,7 +4,7 @@ This Flutter package is a fork of community_material_icons, which seems to have 
 
 If you find any icons that are not in the package and should be, please either open an issue linking to the icon or fork the repo, add the icon yourself, and open a pull request
 
-# Special thanks to:
+## Special thanks to:
 - Miyoyo
 - Matthew Evans
 
