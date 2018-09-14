@@ -1,3 +1,6 @@
+## 1.1.0 - 9/13/2018
+* Version 1.1.0 starts to introduce Google's new outline icons. Look out for more coming soon!
+
 ## 1.0.0 - 8/15/2018
 
 * Version 1.0.6 introduces the dart icon to the package
