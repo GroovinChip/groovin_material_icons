@@ -28,6 +28,10 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData account_box_outline2 = const IconData(0xe80f,
+      fontFamily: 'MaterialOutlineIcons1',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData account_card_details = const IconData(0xF5D2,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
@@ -38,6 +42,10 @@ class GroovinMaterialIcons {
 
   static const IconData account_circle = const IconData(0xF009,
       fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_circle_outline = const IconData(0xe810,
+      fontFamily: 'MaterialOutlineIcons1',
       fontPackage: 'groovin_material_icons');
 
   static const IconData account_convert = const IconData(0xF00A,
@@ -663,6 +671,10 @@ class GroovinMaterialIcons {
 
   static const IconData assistant = const IconData(0xF064,
       fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData assignmant_outline = const IconData(0xe814,
+      fontFamily: 'MaterialOutlineIcons1',
       fontPackage: 'groovin_material_icons');
 
   static const IconData asterisk = const IconData(0xF6C3,
@@ -3095,6 +3107,10 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData edit_outline = const IconData(0xe817,
+      fontFamily: 'MaterialOutlineIcons1',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData eject = const IconData(0xF1EA,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
@@ -4250,6 +4266,10 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData gif = const IconData(0xe815,
+      fontFamily: 'MaterialOutlineIcons1',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData gift = const IconData(0xF2A1,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
@@ -4864,6 +4884,10 @@ class GroovinMaterialIcons {
 
   static const IconData inbox = const IconData(0xF686,
       fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData inbox_all_outline = const IconData(0xe811,
+      fontFamily: 'MaterialOutlineIcons1',
       fontPackage: 'groovin_material_icons');
 
   static const IconData inbox_arrow_down = const IconData(0xF2FB,
@@ -6375,6 +6399,10 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData phone_outline = const IconData(0xe801,
+      fontFamily: 'MaterialOutlineIcons1',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData phone_bluetooth = const IconData(0xF3F3,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
@@ -6393,6 +6421,10 @@ class GroovinMaterialIcons {
 
   static const IconData phone_in_talk = const IconData(0xF3F6,
       fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData phone_in_talk_outline = const IconData(0xe80b,
+      fontFamily: 'MaterialOutlineIcons1',
       fontPackage: 'groovin_material_icons');
 
   static const IconData phone_incoming = const IconData(0xF3F7,
@@ -7377,6 +7409,10 @@ class GroovinMaterialIcons {
 
   static const IconData settings_outline = const IconData(0xF8BA,
       fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData settings_outline2 = const IconData(0xe816,
+      fontFamily: 'MaterialOutlineIcons1',
       fontPackage: 'groovin_material_icons');
 
   static const IconData shape = const IconData(0xF830,
@@ -8401,6 +8437,10 @@ class GroovinMaterialIcons {
 
   static const IconData tor = const IconData(0xF52A,
       fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData touch_app = const IconData(0xe80a,
+      fontFamily: 'MaterialOutlineIcons1',
       fontPackage: 'groovin_material_icons');
 
   static const IconData tower_beach = const IconData(0xF680,

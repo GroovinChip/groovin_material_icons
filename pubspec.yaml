@@ -31,6 +31,9 @@ flutter:
       - family: PubIcon
         fonts:
           - asset: fonts/pub_icon.ttf
+      - family: MaterialOutlineIcons1
+        fonts:
+          - asset: fonts/MaterialOutlineIcons1.ttf
 
     assets:
       - assets/flutter.png
