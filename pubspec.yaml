@@ -12,7 +12,7 @@ homepage: https://github.com/GroovinChip/groovin_material_icons
 dependencies:
   flutter:
     sdk: flutter
-
+  draggable_scrollbar: ^0.0.4
 dev_dependencies:
   flutter_test:
     sdk: flutter
