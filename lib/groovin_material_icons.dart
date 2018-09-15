@@ -2736,8 +2736,7 @@ class GroovinMaterialIcons {
       fontPackage: 'groovin_material_icons');
 
   static const IconData dart_logo = const IconData(0xe800,
-      fontFamily: 'PubIcon',
-      fontPackage: 'groovin_material_icons');
+      fontFamily: 'PubIcon', fontPackage: 'groovin_material_icons');
 
   static const IconData database = const IconData(0xF1B8,
       fontFamily: 'MaterialDesignIconFont',
@@ -7325,6 +7324,10 @@ class GroovinMaterialIcons {
 
   static const IconData send = const IconData(0xF48A,
       fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData send_outline = const IconData(0xe800,
+      fontFamily: 'SendOutlineIcon',
       fontPackage: 'groovin_material_icons');
 
   static const IconData send_secure = const IconData(0xF7EC,
