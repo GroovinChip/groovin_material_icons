@@ -1,5 +1,7 @@
 ## 1.1.0 - 9/13/2018
-* Version 1.1.2 updates the example app with alll icons included in the package
+* Version 1.1.3 updates the example app search and a new view when tappping an icon
+
+* Version 1.1.2 updates the example app with all icons included in the package
 
 * Version 1.1.1 adds the send_outline icon
 

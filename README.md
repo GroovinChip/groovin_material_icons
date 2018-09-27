@@ -6,6 +6,7 @@ If you find any icons that are not in the package and should be, please either o
 
 ## Special thanks to:
 - Miyoyo
+- ThinkDigital
 - Matthew Evans
 
 ## How to contribue

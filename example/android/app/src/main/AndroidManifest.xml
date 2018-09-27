@@ -14,7 +14,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="groovin_material_icons_testapp"
+        android:label="GroovinMaterialIcons Companion"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
