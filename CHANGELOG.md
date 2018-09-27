@@ -1,4 +1,6 @@
 ## 1.1.0 - 9/13/2018
+* Version 1.1.2 updates the example app with alll icons included in the package
+
 * Version 1.1.1 adds the send_outline icon
 
 * Version 1.1.0 starts to introduce Google's new outline icons. Look out for more coming soon!
