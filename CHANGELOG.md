@@ -1,5 +1,7 @@
 ## 1.1.0 - 9/13/2018
-* Version 1.1.3 updates the example app search and a new view when tappping an icon
+* Version 1.1.4 updates the example app
+
+* Version 1.1.3 updates the example app with icon search and a new view when tappping an icon
 
 * Version 1.1.2 updates the example app with all icons included in the package
 
