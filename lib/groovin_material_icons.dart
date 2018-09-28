@@ -7327,8 +7327,7 @@ class GroovinMaterialIcons {
       fontPackage: 'groovin_material_icons');
 
   static const IconData send_outline = const IconData(0xe800,
-      fontFamily: 'SendOutlineIcon',
-      fontPackage: 'groovin_material_icons');
+      fontFamily: 'SendOutlineIcon', fontPackage: 'groovin_material_icons');
 
   static const IconData send_secure = const IconData(0xF7EC,
       fontFamily: 'MaterialDesignIconFont',
