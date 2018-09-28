@@ -1,8 +1,10 @@
 import 'package:draggable_scrollbar/draggable_scrollbar.dart';
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:groovin_material_icons/groovin_material_icons.dart';
 import 'package:groovin_material_icons_testapp/icon_map.dart';
 import 'package:groovin_material_icons_testapp/search.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'icon_display.dart';
 
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'GroovinMaterialIcons Companion'),
+      home: MyHomePage(title: 'GMI Companion'),
     );
   }
 }
@@ -41,14 +43,14 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     iconList = iconMap
-        .map((title, icon) => MapEntry(
-        title,
-        new IconCard(
-          title: title,
-          icon: icon,
-        )))
-        .values
-        .toList();
+      .map((title, icon) => MapEntry(
+      title,
+      new IconCard(
+        title: title,
+        icon: icon,
+      )))
+      .values
+      .toList();
     super.initState();
   }
 
@@ -58,17 +60,126 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text(widget.title),
+        centerTitle: true,
+        backgroundColor: Colors.white,
+        iconTheme: IconThemeData(
+          color: Colors.black
+        ),
+        title: Text(widget.title, style: TextStyle(color: Colors.black)),
+        leading: IconButton(
+          icon: Icon(Icons.info_outline),
+          onPressed: (){
+            showModalBottomSheet(
+              context: context,
+              builder: (builder){
+                return Container(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: <Widget>[
+                        Padding(
+                          padding: const EdgeInsets.only(top: 8.0),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: <Widget>[
+                              Container(
+                                height: 5.0,
+                                width: 25.0,
+                                decoration: BoxDecoration(
+                                    color: Colors.grey[300],
+                                    borderRadius: BorderRadius.only(
+                                      topLeft: const Radius.circular(10.0),
+                                      topRight: const Radius.circular(10.0),
+                                      bottomLeft: const Radius.circular(10.0),
+                                      bottomRight: const Radius.circular(10.0),
+                                    )
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        ListTile(
+                          leading: Icon(GroovinMaterialIcons.information_variant, color: Colors.black,),
+                          title: Text("Package Version: 1.1.4"),
+                        ),
+                        Material(
+                          child: ListTile(
+                            leading: Icon(GroovinMaterialIcons.dart_logo, color: Colors.blue,),
+                            title: Text("View on Pub"),
+                            onTap: (){
+                              launch("https://pub.dartlang.org/packages/groovin_material_icons");
+                            },
+                          ),
+                        ),
+                        ListTile(
+                          leading: Icon(GroovinMaterialIcons.creation, color: Colors.black,),
+                          title: Text("Special Thanks to:"),
+                          subtitle: Text("Miyoyo, Matthew Evans, and ThinkDigital"),
+                        ),
+                        Divider(
+                          color: Colors.grey,
+                          height: 0.0,
+                        ),
+                        ListTile(
+                          leading: Icon(GroovinMaterialIcons.flutter, color: Colors.blue),
+                          title: Text("Get Started with Flutter"),
+                          onTap: (){
+                            launch("https:flutter.io");
+                          },
+                        ),
+                        Divider(
+                          color: Colors.grey,
+                          height: 0.0,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: <Widget>[
+                            IconButton(
+                              icon: Icon(GroovinMaterialIcons.twitter, color: Colors.blue),
+                              onPressed: (){
+                                launch("https:twitter.com/GroovinChipDev");
+                              },
+                            ),
+                            IconButton(
+                              icon: Icon(GroovinMaterialIcons.github_circle),
+                              onPressed: (){
+                                launch("https:github.com/GroovinChip");
+                              },
+                            ),
+                            IconButton(
+                              icon: Icon(GroovinMaterialIcons.gmail),
+                              color: Colors.red,
+                              onPressed: (){
+                                launch("mailto:groovinchip@gmail.com");
+                              },
+                            ),
+                            IconButton(
+                              icon: Icon(GroovinMaterialIcons.discord, color: Colors.deepPurpleAccent),
+                              onPressed: (){
+                                launch("https://discord.gg/CFnBRue");
+                              },
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                );
+              }
+            );
+          },
+        ),
         actions: <Widget>[
           IconButton(
-              icon: Icon(Icons.search),
-              onPressed: () {
-                showSearch(context: context, delegate: IconSearch());
-              })
+            icon: Icon(Icons.search),
+            onPressed: () {
+              showSearch(context: context, delegate: IconSearch());
+            },
+          ),
         ],
       ),
       body: DraggableScrollbar.rrect(
-        backgroundColor: Theme.of(context).primaryColor,
+        backgroundColor: Colors.indigo,
         controller: scrollController,
         child: GridView.builder(
           physics: PageScrollPhysics(),

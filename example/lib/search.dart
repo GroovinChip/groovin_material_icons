@@ -12,10 +12,11 @@ class IconSearch extends SearchDelegate<String> {
   List<Widget> buildActions(BuildContext context) {
     return [
       IconButton(
-          icon: Icon(GroovinMaterialIcons.close),
-          onPressed: () {
-            query = "";
-          })
+        icon: Icon(GroovinMaterialIcons.close),
+        onPressed: () {
+          query = "";
+        },
+      )
     ];
   }
 
@@ -23,20 +24,23 @@ class IconSearch extends SearchDelegate<String> {
   @override
   Widget buildLeading(BuildContext context) {
     return IconButton(
-        icon: AnimatedIcon(
-            icon: AnimatedIcons.menu_arrow, progress: transitionAnimation),
-        onPressed: () {
-          close(context, null);
-        });
+      icon: AnimatedIcon(
+        icon: AnimatedIcons.menu_arrow, progress: transitionAnimation,
+      ),
+      onPressed: () {
+        close(context, null);
+      },
+    );
   }
 
   @override
   Widget buildResults(BuildContext context) {
     return Center(
-        child: IconDisplay(
-      title: query,
-      iconData: iconMap[query],
-    ));
+      child: IconDisplay(
+        title: query,
+        iconData: iconMap[query],
+      ),
+    );
   }
 
   @override
