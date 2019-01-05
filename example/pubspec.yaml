@@ -1,5 +1,5 @@
 name: groovin_material_icons_testapp
-description: A new Flutter application.
+description: A Flutter application that acts as a companion to the 'groovin_material_icons' package.
 
 dependencies:
   flutter:
@@ -7,10 +7,17 @@ dependencies:
   groovin_material_icons:
     path: ..
   cupertino_icons: ^0.1.2
+  draggable_scrollbar: ^0.0.4
+  url_launcher: ^3.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.6.1"
+
+flutter_icons:
+  android: true
+  image_path: "assets/icon/icon.png"
 
 flutter:
 
