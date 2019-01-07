@@ -1,4 +1,6 @@
 ## 1.1.0 - 9/13/2018
+* Version 1.1.6 updates incorrect dependencies
+
 * Version 1.1.5 updates the 'url_launcher' dependency
 
 * Version 1.1.4 updates the example app

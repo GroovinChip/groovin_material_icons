@@ -1,6 +1,6 @@
 name: groovin_material_icons
 description: A Flutter icons package that provides Material icons from both Google and the community.
-version: 1.1.5
+version: 1.1.6
 author: GroovinChip <groovinchip@gmail.com>
 homepage: https://github.com/GroovinChip/groovin_material_icons
 #---
@@ -12,8 +12,7 @@ homepage: https://github.com/GroovinChip/groovin_material_icons
 dependencies:
   flutter:
     sdk: flutter
-  draggable_scrollbar: ^0.0.4
-  url_launcher: ^4.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
