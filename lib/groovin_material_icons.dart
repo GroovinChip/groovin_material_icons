@@ -1055,7 +1055,14 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  // TODO: axis icons
+
   static const IconData azure = const IconData(0xF804,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData babel = const IconData(0xfa24,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -1075,6 +1082,11 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  //
+  static const IconData backspace_outline = const IconData(0xfb38,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData backup_restore = const IconData(0xF06F,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
@@ -1083,17 +1095,91 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  //
+  static const IconData bag_personal = const IconData(0xfdf3,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bag_personal_off = const IconData(0xfdf4,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bag_personal_off_outline = const IconData(0xfdf5,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bag_personal_outline = const IconData(0xfdf6,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData balloon = const IconData(0xfa25,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
   static const IconData ballot = const IconData(0xe800,
-      fontFamily: 'BallotIcons', fontPackage: 'groovin_material_icons');
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
 
+  //
   static const IconData ballot_outline = const IconData(0xe801,
-      fontFamily: 'BallotIcons', fontPackage: 'groovin_material_icons');
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
 
+  //
+  static const IconData ballot_recount = const IconData(0xfc15,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData ballot_recount_outline = const IconData(0xfc16,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData bandage = const IconData(0xfd8b,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
   static const IconData bandcamp = const IconData(0xF674,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  //
   static const IconData bank = const IconData(0xF070,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bank_minus = const IconData(0xfd8c,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData bank_plus = const IconData(0xfd8d,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bank_remove = const IconData(0xfd8e,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bank_transfer = const IconData(0xfa26,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bank_transfer_in = const IconData(0xfa27,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bank_transfer_out = const IconData(0xfa28,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -1106,6 +1192,16 @@ class GroovinMaterialIcons {
       fontPackage: 'groovin_material_icons');
 
   static const IconData barley = const IconData(0xF073,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData barley_off = const IconData(0xfb39,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData barn = const IconData(0xfb3a,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -1140,6 +1236,18 @@ class GroovinMaterialIcons {
   static const IconData basketball = const IconData(0xF805,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData basketball_hoop = const IconData(0xfc17,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData basketball_hoop_outline = const IconData(0xfc18,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // TODO: battery-bluetooth icons
 
   static const IconData battery = const IconData(0xF079,
       fontFamily: 'MaterialDesignIconFont',
@@ -1306,11 +1414,26 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  //
+  static const IconData battery_unknown_bluetooth = const IconData(0xf949,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData battlenet = const IconData(0xfb3c,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData beach = const IconData(0xF092,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
   static const IconData beaker = const IconData(0xF68F,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData beaker_outline = const IconData(0xf68f,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -1334,7 +1457,27 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  //
+  static const IconData bell_alert = const IconData(0xfd35,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bell_circle = const IconData(0xfd36,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bell_circle_outline = const IconData(0xfd37,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData bell_off = const IconData(0xF09B,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bell_off_outline = const IconData(0xF09B,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -1343,6 +1486,11 @@ class GroovinMaterialIcons {
       fontPackage: 'groovin_material_icons');
 
   static const IconData bell_plus = const IconData(0xF09D,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData bell_plus_outline = const IconData(0xfa91,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -1358,7 +1506,21 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData bell_sleep_outline = const IconData(0xfa92,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData beta = const IconData(0xF0A1,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData beta_max = const IconData(0xf9ca,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData biathlon = const IconData(0xfdf7,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
