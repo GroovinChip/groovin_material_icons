@@ -12,11 +12,59 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData access_point_network_off = const IconData(0xfbbd,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData account = const IconData(0xF004,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
   static const IconData account_alert = const IconData(0xF005,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_alert_outline = const IconData(0xfb2c,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_arrow_left = const IconData(0xfb2d,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_arrow_left_outline = const IconData(0xfb2e,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_arrow_right = const IconData(0xfb2f,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_arrow_right_outline = const IconData(0xfb30,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_badge = const IconData(0xfd83,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_badge_outline = const IconData(0xfd86,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_badge_alert = const IconData(0xfd84,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_badge_alert_outline = const IconData(0xfd85,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_badge_horizontal = const IconData(0xfdf0,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_badge_horizontal_outline = const IconData(0xfdf1,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -40,15 +88,39 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData account_check_outline = const IconData(0xfbbe,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_child = const IconData(0xfa88,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_child_circle = const IconData(0xfa89,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData account_circle = const IconData(0xF009,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
-  static const IconData account_circle_outline = const IconData(0xe810,
-      fontFamily: 'MaterialOutlineIcons1',
+  static const IconData account_circle_outline = const IconData(0xfb31,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_clock = const IconData(0xfb32,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_clock_outline = const IconData(0xfb33,
+      fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
   static const IconData account_convert = const IconData(0xF00A,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_details = const IconData(0xf631,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -60,11 +132,23 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData account_group_outline = const IconData(0xfb34,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData account_heart = const IconData(0xF898,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData account_heart_outline = const IconData(0xfbbf,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData account_key = const IconData(0xF00B,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_key_outline = const IconData(0xfbc0,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -76,7 +160,15 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData account_minus_outline = const IconData(0xfaeb,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData account_multiple = const IconData(0xF00E,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_multiple_outline = const IconData(0xf00f,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -88,7 +180,7 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
-  static const IconData account_multiple_outline = const IconData(0xF00F,
+  static const IconData account_multiple_minus_outline = const IconData(0xfbc1,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -104,7 +196,15 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData account_network_outline = const IconData(0xfbc2,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData account_off = const IconData(0xF012,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_off_outline = const IconData(0xfbc3,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -120,11 +220,27 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData account_question = const IconData(0xfb35,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_question_outline = const IconData(0xfb36,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData account_remove = const IconData(0xF015,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData account_remove_outline = const IconData(0xfaec,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData account_search = const IconData(0xF016,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_search_outline = const IconData(0xf934,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -140,11 +256,31 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData account_star_outline = const IconData(0xfbc4,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_supervisor = const IconData(0xfa8a,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData account_supervisor_circle = const IconData(0xfa8b,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData account_switch = const IconData(0xF019,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData account_tie = const IconData(0xfcbf,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData accusoft = const IconData(0xF849,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData adchoices = const IconData(0xfd1e,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -153,6 +289,22 @@ class GroovinMaterialIcons {
       fontPackage: 'groovin_material_icons');
 
   static const IconData air_conditioner = const IconData(0xF01B,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData air_filter = const IconData(0xfd1f,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData air_horn = const IconData(0xfd88,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData air_purifier = const IconData(0xfd20,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData airbag = const IconData(0xfbc5,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -228,6 +380,10 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData alert_box_outline = const IconData(0xfcc0,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData alert_circle = const IconData(0xF028,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
@@ -240,11 +396,23 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData alert_decagram_outline = const IconData(0xfcc1,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData alert_octagon = const IconData(0xF029,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData alert_octagon_outline = const IconData(0xF029,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData alert_octagram = const IconData(0xF766,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData alert_octagram_outline = const IconData(0xfcc2,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -263,6 +431,48 @@ class GroovinMaterialIcons {
   static const IconData alpha = const IconData(0xF02B,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
+
+  static const IconData alpha_a = const IconData(0x0041,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData alpha_a_circle = const IconData(0xfbc8,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData alpha_a_circle_outline = const IconData(0xfbc9,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData alpha_a_box = const IconData(0xfaed,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData alpha_a_box_outline = const IconData(0xfbc7,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData alpha_b = const IconData(0x0042,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData alpha_b_circle = const IconData(0xfbcb,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData alpha_b_circle_outline = const IconData(0xfbcc,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData alpha_b_box = const IconData(0xfaee,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  static const IconData alpha_b_box_outline = const IconData(0xfbca,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // TODO: add the rest of the alpha icons
 
   static const IconData alphabetical = const IconData(0xF02C,
       fontFamily: 'MaterialDesignIconFont',
@@ -288,6 +498,16 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  // not in icon_map
+  static const IconData ammunition = const IconData(0xfcc4,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData ampersand = const IconData(0xfa8c,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData amplifier = const IconData(0xF030,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
@@ -297,6 +517,11 @@ class GroovinMaterialIcons {
       fontPackage: 'groovin_material_icons');
 
   static const IconData android = const IconData(0xF032,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData android_auto = const IconData(0xfa8d,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -312,6 +537,21 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  // not in icon_map
+  static const IconData angle_acute = const IconData(0xf936,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData angle_obtuse = const IconData(0xf937,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData angle_right = const IconData(0xf938,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData angular = const IconData(0xF6B1,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
@@ -321,6 +561,21 @@ class GroovinMaterialIcons {
       fontPackage: 'groovin_material_icons');
 
   static const IconData animation = const IconData(0xF5D8,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData animation_outline = const IconData(0xfa8e,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData animation_play = const IconData(0xf939,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData animation_play_outline = const IconData(0xf939,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -372,11 +627,26 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  // not in icon_map
+  static const IconData application_export = const IconData(0xfd89,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData application_import = const IconData(0xfd8a,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData approval = const IconData(0xF790,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
   static const IconData apps = const IconData(0xF03B,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData apps_box = const IconData(0xfd22,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -412,7 +682,28 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  // not in icon_map
+  static const IconData arrow_bottom_left_bold_outline = const IconData(0xf9b6,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData arrow_bottom_left_thick = const IconData(0xf9b7,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
   static const IconData arrow_bottom_right = const IconData(0xF043,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData arrow_bottom_right_bold_outline = const IconData(0xf9b8,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  // not in icon_map
+  static const IconData arrow_bottom_right_thick = const IconData(0xf9b7,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -447,6 +738,8 @@ class GroovinMaterialIcons {
   static const IconData arrow_collapse_vertical = const IconData(0xF84C,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
+
+  // TODO: arrow_decision icons
 
   static const IconData arrow_down = const IconData(0xF045,
       fontFamily: 'MaterialDesignIconFont',
@@ -613,6 +906,16 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  //
+  static const IconData arrow_split_horizontal = const IconData(0xf93a,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData arrow_split_vertical = const IconData(0xf93b,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData arrow_top_left = const IconData(0xF05B,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
@@ -669,7 +972,32 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  //
+  static const IconData artist_outline = const IconData(0xfcc5,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData art_station = const IconData(0xfb37,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData aspect_ratio = const IconData(0xfa23,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData assistant = const IconData(0xF064,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData asterisk = const IconData(0xf6c3,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData at_symbol = const IconData(0xf065,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -677,15 +1005,12 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialOutlineIcons1',
       fontPackage: 'groovin_material_icons');
 
-  static const IconData asterisk = const IconData(0xF6C3,
-      fontFamily: 'MaterialDesignIconFont',
-      fontPackage: 'groovin_material_icons');
-
-  static const IconData at = const IconData(0xF065,
-      fontFamily: 'MaterialDesignIconFont',
-      fontPackage: 'groovin_material_icons');
-
   static const IconData atlassian = const IconData(0xF803,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData atm = const IconData(0xfd23,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -694,6 +1019,11 @@ class GroovinMaterialIcons {
       fontPackage: 'groovin_material_icons');
 
   static const IconData attachment = const IconData(0xF066,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData audio_video = const IconData(0xf93c,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 

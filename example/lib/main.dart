@@ -8,7 +8,30 @@ import 'package:url_launcher/url_launcher.dart';
 
 import 'icon_display.dart';
 
-void main() => runApp(MyApp());
+import 'dart:io' show Platform;
+import 'package:flutter/foundation.dart'
+    show debugDefaultTargetPlatformOverride;
+import 'package:flutter/foundation.dart';
+
+void main() {
+  _setTargetPlatformForDesktop();
+  runApp(MyApp());
+}
+
+/// If the current platform is desktop, override the default platform to
+/// a supported platform (iOS for macOS, Android for Linux and Windows).
+/// Otherwise, do nothing.
+void _setTargetPlatformForDesktop() {
+  TargetPlatform targetPlatform;
+  if (Platform.isMacOS) {
+    targetPlatform = TargetPlatform.iOS;
+  } else if (Platform.isLinux || Platform.isWindows) {
+    targetPlatform = TargetPlatform.android;
+  }
+  if (targetPlatform != null) {
+    debugDefaultTargetPlatformOverride = targetPlatform;
+  }
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -18,7 +41,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'GMI Companion',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.indigo,
       ),
       home: MyHomePage(title: 'GMI Companion'),
     );
@@ -45,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
     iconList = iconMap
       .map((title, icon) => MapEntry(
       title,
-      new IconCard(
+      IconCard(
         title: title,
         icon: icon,
       )))
@@ -182,7 +205,6 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.indigo,
         controller: scrollController,
         child: GridView.builder(
-          physics: PageScrollPhysics(),
           controller: scrollController,
           padding: EdgeInsets.all(10.0),
           itemCount: iconMap.length,
