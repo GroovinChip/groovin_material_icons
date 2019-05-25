@@ -5,8 +5,11 @@ class IconDisplay extends StatelessWidget {
   final String title;
   final bool showAppBar;
 
-  IconDisplay(
-      {@required this.title, @required this.iconData, this.showAppBar = false});
+  IconDisplay({
+    @required this.title,
+    @required this.iconData,
+    this.showAppBar = false,
+  });
 
   final List<Color> colorList = [
     Colors.black,

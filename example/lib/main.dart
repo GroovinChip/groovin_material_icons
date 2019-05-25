@@ -243,6 +243,7 @@ class IconCard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             IconButton(
+              tooltip: title,
               icon: Icon(icon),
               iconSize: iconSize,
               onPressed: () {
@@ -256,14 +257,14 @@ class IconCard extends StatelessWidget {
                 }));
               },
             ),
-            Padding(
+            /*Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
                 title,
                 textAlign: TextAlign.center,
                 style: TextStyle(fontWeight: fontWeight),
               ),
-            )
+            ),*/
           ],
         ),
       ),
