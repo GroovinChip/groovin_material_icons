@@ -1,4 +1,4 @@
-name: groovin_material_icons_testapp
+name: groovin_material_icons_companion
 description: A Flutter application that acts as a companion to the 'groovin_material_icons' package.
 
 dependencies:
