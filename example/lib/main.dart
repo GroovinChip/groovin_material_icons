@@ -5,6 +5,7 @@ import 'package:groovin_material_icons/groovin_material_icons.dart';
 import 'package:groovin_material_icons_testapp/icon_map.dart';
 import 'package:groovin_material_icons_testapp/search.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:rounded_modal/rounded_modal.dart';
 
 import 'icon_display.dart';
 
@@ -92,8 +93,9 @@ class _MyHomePageState extends State<MyHomePage> {
         leading: IconButton(
           icon: Icon(Icons.info_outline),
           onPressed: (){
-            showModalBottomSheet(
+            showRoundedModalBottomSheet(
               context: context,
+              dismissOnTap: false,
               builder: (builder){
                 return Container(
                   child: SingleChildScrollView(
@@ -109,13 +111,13 @@ class _MyHomePageState extends State<MyHomePage> {
                                 height: 5.0,
                                 width: 25.0,
                                 decoration: BoxDecoration(
-                                    color: Colors.grey[300],
-                                    borderRadius: BorderRadius.only(
-                                      topLeft: const Radius.circular(10.0),
-                                      topRight: const Radius.circular(10.0),
-                                      bottomLeft: const Radius.circular(10.0),
-                                      bottomRight: const Radius.circular(10.0),
-                                    )
+                                  color: Colors.grey[300],
+                                  borderRadius: BorderRadius.only(
+                                    topLeft: const Radius.circular(10.0),
+                                    topRight: const Radius.circular(10.0),
+                                    bottomLeft: const Radius.circular(10.0),
+                                    bottomRight: const Radius.circular(10.0),
+                                  ),
                                 ),
                               ),
                             ],
@@ -188,7 +190,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                 );
-              }
+              },
             );
           },
         ),
@@ -209,7 +211,8 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: EdgeInsets.all(10.0),
           itemCount: iconMap.length,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: crossAxisCount),
+            crossAxisCount: crossAxisCount,
+          ),
           itemBuilder: (BuildContext context, int index) {
             return iconList[index];
           },
@@ -247,14 +250,16 @@ class IconCard extends StatelessWidget {
               icon: Icon(icon),
               iconSize: iconSize,
               onPressed: () {
-                Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (BuildContext context) {
-                  return IconDisplay(
-                    title: title,
-                    iconData: icon,
-                    showAppBar: true,
-                  );
-                }));
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (BuildContext context) {
+                    return IconDisplay(
+                      title: title,
+                      iconData: icon,
+                      showAppBar: true,
+                    );
+                    },
+                  ),
+                );
               },
             ),
             /*Padding(

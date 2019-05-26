@@ -8,7 +8,8 @@ dependencies:
     path: ..
   cupertino_icons: ^0.1.2
   draggable_scrollbar: ^0.0.4
-  url_launcher: ^3.0.3
+  url_launcher: ^5.0.2
+  rounded_modal: ^1.0.0
 
 dev_dependencies:
   flutter_test:

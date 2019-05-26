@@ -1543,11 +1543,98 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
+  static const IconData aws = const IconData(0xfdf2,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
   static const IconData axe = const IconData(0xF8C7,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
-  // TODO: axis icons
+  //
+  static const IconData axis = const IconData(0xfd24,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_arrow = const IconData(0xfd25,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_arrow_lock = const IconData(0xfd26,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_lock = const IconData(0xfd27,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_x_arrow = const IconData(0xfd28,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_x_arrow_lock = const IconData(0xfd29,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_x_rotate_clockwise = const IconData(0xfd2a,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_x_rotate_counterclockwise = const IconData(0xfd2b,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_x_y_arrow_lock = const IconData(0xfd2c,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_y_arrow = const IconData(0xfd2d,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_y_arrow_lock = const IconData(0xfd2e,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_y_rotate_clockwise = const IconData(0xfd2f,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_y_rotate_counterclockwise = const IconData(0xfd30,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_z_arrow = const IconData(0xfd31,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_z_arrow_lock = const IconData(0xfd32,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_z_rotate_clockwise = const IconData(0xfd33,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
+
+  //
+  static const IconData axis_z_rotate_counterclockwise = const IconData(0xfd34,
+      fontFamily: 'MaterialDesignIconFont',
+      fontPackage: 'groovin_material_icons');
 
   static const IconData azure = const IconData(0xF804,
       fontFamily: 'MaterialDesignIconFont',
