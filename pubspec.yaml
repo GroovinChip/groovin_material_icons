@@ -24,9 +24,6 @@ flutter:
       - family: CustomMaterialIcons
         fonts:
           - asset: fonts/flutter_icon_custom.ttf
-      - family: BallotIcons
-        fonts:
-          - asset: fonts/ballot_icons.ttf
       - family: PubIcon
         fonts:
           - asset: fonts/pub_icon.ttf

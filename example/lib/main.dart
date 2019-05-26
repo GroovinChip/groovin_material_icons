@@ -10,8 +10,7 @@ import 'package:rounded_modal/rounded_modal.dart';
 import 'icon_display.dart';
 
 import 'dart:io' show Platform;
-import 'package:flutter/foundation.dart'
-    show debugDefaultTargetPlatformOverride;
+import 'package:flutter/foundation.dart' show debugDefaultTargetPlatformOverride;
 import 'package:flutter/foundation.dart';
 
 void main() {
@@ -64,17 +63,19 @@ class _MyHomePageState extends State<MyHomePage> {
   Function refreshFab;
   var iconList;
 
+  Widget titleText;
+
   @override
   void initState() {
     iconList = iconMap
-      .map((title, icon) => MapEntry(
-      title,
-      IconCard(
-        title: title,
-        icon: icon,
-      )))
-      .values
-      .toList();
+        .map((title, icon) => MapEntry(
+            title,
+            IconCard(
+              title: title,
+              icon: icon,
+            )))
+        .values
+        .toList();
     super.initState();
   }
 
@@ -86,112 +87,72 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.white,
-        iconTheme: IconThemeData(
-          color: Colors.black
+        iconTheme: IconThemeData(color: Colors.black),
+        title: Text(
+          MediaQuery.of(context).size.width > 400 ? 'GroovinMaterialIcons Companion' : widget.title,
+          style: TextStyle(
+            color: Colors.black,
+            fontWeight:
+                MediaQuery.of(context).size.width > 400 ? FontWeight.bold : FontWeight.normal,
+          ),
         ),
-        title: Text(widget.title, style: TextStyle(color: Colors.black)),
         leading: IconButton(
           icon: Icon(Icons.info_outline),
-          onPressed: (){
-            showRoundedModalBottomSheet(
-              context: context,
-              dismissOnTap: false,
-              builder: (builder){
-                return Container(
-                  child: SingleChildScrollView(
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: <Widget>[
-                        Padding(
-                          padding: const EdgeInsets.only(top: 8.0),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
-                              Container(
-                                height: 5.0,
-                                width: 25.0,
-                                decoration: BoxDecoration(
-                                  color: Colors.grey[300],
-                                  borderRadius: BorderRadius.only(
-                                    topLeft: const Radius.circular(10.0),
-                                    topRight: const Radius.circular(10.0),
-                                    bottomLeft: const Radius.circular(10.0),
-                                    bottomRight: const Radius.circular(10.0),
+          onPressed: () {
+            if (MediaQuery.of(context).size.width < 400) {
+              showRoundedModalBottomSheet(
+                context: context,
+                dismissOnTap: false,
+                builder: (builder) {
+                  return Container(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: <Widget>[
+                          Padding(
+                            padding: const EdgeInsets.only(top: 8.0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: <Widget>[
+                                Container(
+                                  height: 5.0,
+                                  width: 25.0,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[300],
+                                    borderRadius: BorderRadius.only(
+                                      topLeft: const Radius.circular(10.0),
+                                      topRight: const Radius.circular(10.0),
+                                      bottomLeft: const Radius.circular(10.0),
+                                      bottomRight: const Radius.circular(10.0),
+                                    ),
                                   ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
-                        ),
-                        ListTile(
-                          leading: Icon(GroovinMaterialIcons.information_variant, color: Colors.black,),
-                          title: Text("Package Version: 1.1.4"),
-                        ),
-                        Material(
-                          child: ListTile(
-                            leading: Icon(GroovinMaterialIcons.dart_logo, color: Colors.blue,),
-                            title: Text("View on Pub"),
-                            onTap: (){
-                              launch("https://pub.dartlang.org/packages/groovin_material_icons");
-                            },
-                          ),
-                        ),
-                        ListTile(
-                          leading: Icon(GroovinMaterialIcons.creation, color: Colors.black,),
-                          title: Text("Special Thanks to:"),
-                          subtitle: Text("Miyoyo, Matthew Evans, and ThinkDigital"),
-                        ),
-                        Divider(
-                          color: Colors.grey,
-                          height: 0.0,
-                        ),
-                        ListTile(
-                          leading: Icon(GroovinMaterialIcons.flutter, color: Colors.blue),
-                          title: Text("Get Started with Flutter"),
-                          onTap: (){
-                            launch("https:flutter.io");
-                          },
-                        ),
-                        Divider(
-                          color: Colors.grey,
-                          height: 0.0,
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          children: <Widget>[
-                            IconButton(
-                              icon: Icon(GroovinMaterialIcons.twitter, color: Colors.blue),
-                              onPressed: (){
-                                launch("https:twitter.com/GroovinChipDev");
-                              },
-                            ),
-                            IconButton(
-                              icon: Icon(GroovinMaterialIcons.github_circle),
-                              onPressed: (){
-                                launch("https:github.com/GroovinChip");
-                              },
-                            ),
-                            IconButton(
-                              icon: Icon(GroovinMaterialIcons.gmail),
-                              color: Colors.red,
-                              onPressed: (){
-                                launch("mailto:groovinchip@gmail.com");
-                              },
-                            ),
-                            IconButton(
-                              icon: Icon(GroovinMaterialIcons.discord, color: Colors.deepPurpleAccent),
-                              onPressed: (){
-                                launch("https://discord.gg/CFnBRue");
-                              },
-                            ),
-                          ],
-                        ),
+                          Info(),
+                        ],
+                      ),
+                    ),
+                  );
+                },
+              );
+            } else {
+              showDialog(
+                context: context,
+                builder: (_) => SimpleDialog(
+                      title: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: <Widget>[
+                          Text('About'),
+                        ],
+                      ),
+                      children: <Widget>[
+                        Info(),
                       ],
                     ),
-                  ),
-                );
-              },
-            );
+              );
+            }
           },
         ),
         actions: <Widget>[
@@ -251,12 +212,13 @@ class IconCard extends StatelessWidget {
               iconSize: iconSize,
               onPressed: () {
                 Navigator.of(context).push(
-                  MaterialPageRoute(builder: (BuildContext context) {
-                    return IconDisplay(
-                      title: title,
-                      iconData: icon,
-                      showAppBar: true,
-                    );
+                  MaterialPageRoute(
+                    builder: (BuildContext context) {
+                      return IconDisplay(
+                        title: title,
+                        iconData: icon,
+                        showAppBar: true,
+                      );
                     },
                   ),
                 );
@@ -273,6 +235,103 @@ class IconCard extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+/// Does not support desktop yet
+class Info extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: <Widget>[
+        ListTile(
+          leading: Icon(
+            GroovinMaterialIcons.information_variant,
+            color: Colors.black,
+          ),
+          title: Text("Package Version: 2.0.0"),
+        ),
+        Material(
+          child: ListTile(
+            leading: Icon(
+              GroovinMaterialIcons.dart_logo,
+              color: Colors.blue,
+            ),
+            title: Text("View on Pub"),
+            onTap: () {
+              launch("https://pub.dartlang.org/packages/groovin_material_icons");
+            },
+          ),
+        ),
+        ListTile(
+          leading: Icon(
+            GroovinMaterialIcons.creation,
+            color: Colors.black,
+          ),
+          title: Text("Special Thanks to:"),
+          subtitle: Text("Miyoyo, Matthew Evans, and ThinkDigital"),
+        ),
+        Divider(
+          color: Colors.grey,
+          height: 0.0,
+        ),
+        ListTile(
+          leading: Icon(GroovinMaterialIcons.flutter, color: Colors.blue),
+          title: Text("Get Started with Flutter"),
+          onTap: () {
+            launch("https:flutter.io");
+          },
+        ),
+        Divider(
+          color: Colors.grey,
+          height: 0.0,
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            IconButton(
+              icon: Icon(
+                GroovinMaterialIcons.twitter,
+                color: Colors.blue,
+              ),
+              tooltip: '@GroovinChip',
+              onPressed: () {
+                launch("https:twitter.com/GroovinChipDev");
+              },
+            ),
+            IconButton(
+              icon: Icon(
+                GroovinMaterialIcons.github_circle,
+              ),
+              tooltip: 'GitHub Profile',
+              onPressed: () {
+                launch("https:github.com/GroovinChip");
+              },
+            ),
+            IconButton(
+              icon: Icon(
+                GroovinMaterialIcons.gmail,
+              ),
+              tooltip: 'groovinchip@gmail.com',
+              color: Colors.red,
+              onPressed: () {
+                launch("mailto:groovinchip@gmail.com");
+              },
+            ),
+            IconButton(
+              icon: Icon(
+                GroovinMaterialIcons.discord,
+                color: Colors.deepPurpleAccent,
+              ),
+              tooltip: 'GroovinSoftware on Discord',
+              onPressed: () {
+                launch("https://discord.gg/CFnBRue");
+              },
+            ),
+          ],
+        ),
+      ],
     );
   }
 }
