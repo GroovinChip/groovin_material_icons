@@ -1676,11 +1676,11 @@ class GroovinMaterialIcons {
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
-  static const IconData ballot = const IconData(0xe800,
+  static const IconData ballot = const IconData(0xf9c8,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
-  static const IconData ballot_outline = const IconData(0xe801,
+  static const IconData ballot_outline = const IconData(0xf9c9,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
 
@@ -2656,7 +2656,7 @@ class GroovinMaterialIcons {
   static const IconData bus = const IconData(0xF0E7,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
-  
+
   static const IconData bus_alert = const IconData(0xfa98,
       fontFamily: 'MaterialDesignIconFont',
       fontPackage: 'groovin_material_icons');
