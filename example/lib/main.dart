@@ -97,6 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
         leading: IconButton(
+          tooltip: 'About',
           icon: Icon(Icons.info_outline),
           onPressed: () {
             if (MediaQuery.of(context).size.width < 400) {
@@ -157,6 +158,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         actions: <Widget>[
           IconButton(
+            tooltip: 'Search',
             icon: Icon(Icons.search),
             onPressed: () {
               showSearch(context: context, delegate: IconSearch());
