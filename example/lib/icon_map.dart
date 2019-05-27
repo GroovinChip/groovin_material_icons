@@ -1716,7 +1716,7 @@ Map<String, IconData> iconMap = {
   "function": GroovinMaterialIcons.function,
   "function_variant": GroovinMaterialIcons.function_variant,
   "fuse": GroovinMaterialIcons.fuse,
-  "fuse_blade": GroovinMaterialIcons.fuse_blade,
+  "fuse_blade": GroovinMaterialIcons.fuse_blade, 
   "gamepad": GroovinMaterialIcons.gamepad,
   "gamepad_variant": GroovinMaterialIcons.gamepad_variant,
   "garage": GroovinMaterialIcons.garage,
